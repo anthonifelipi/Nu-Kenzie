@@ -1,0 +1,35 @@
+.divSomaTotal{
+    display: flex;
+    width: 100%;
+    max-width: 375px;
+    align-items: center;
+}
+.divtextoValorTotal{
+    display: flex;
+    width: 100%;
+    color: black;
+    flex-direction: column;
+
+}
+.divtextoValorTotal > h3{
+    font-size: 16px;
+}
+.divtextoValorTotal > span{
+    font-size: 12px;
+}
+.divValorTotal{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.divValorTotal > p{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #FD377E;
+}
+
+@Media(min-width: 768px){
+    .divSomaTotal{
+        max-width: 700px;
+    }
+}
